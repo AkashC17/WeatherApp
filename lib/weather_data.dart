@@ -1,8 +1,10 @@
 import 'package:http/http.dart';
 import 'dart:convert';
-
+import 'key.dart';
 
 class WeatherData {
+
+
   List<dynamic> weather;
   Map sys;
   Map clouds;
@@ -13,7 +15,7 @@ class WeatherData {
   String sunset;
   String weekDay;
   String Month;
-  String key = '0a0f5c31c1b6cd855e46f48839f3a9d7';
+  String key = Key.KEY;
   String city;
   String cloudDescription;
   String iconId;
